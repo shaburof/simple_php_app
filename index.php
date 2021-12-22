@@ -1,3 +1,6 @@
+<?php
+    $bgColor = "navy";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +11,7 @@
 </head>
 <style>
     body {
-        background-color: green;
+        background-color: <?php echo $bgColor; ?>;
         color: white;
         padding: 25px 25px;
     }
