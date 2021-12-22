@@ -32,5 +32,10 @@
     echo "<p>Your ip address is: ".$remoteIpAddress."</p>";
 ?>
 <img src="/images/poni.jpg" alt="">
+<pre>
+    <?php
+        var_dump($_SERVER);
+    ?>
+</pre>
 </body>
 </html>
