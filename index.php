@@ -19,6 +19,10 @@
     h1{
         text-align: center;
     }
+
+    img {
+        width: 500px;
+    }
 </style>
 <body>
     <h1>Simple PHP Application</h1>
@@ -27,5 +31,6 @@
     echo "<p>".date('l jS \of F Y h:i:s A')."</p>";
     echo "<p>Your ip address is: ".$remoteIpAddress."</p>";
 ?>
+<img src="/images/poni.jpg" alt="">
 </body>
 </html>
