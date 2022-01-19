@@ -27,9 +27,9 @@
 <body>
     <h1>Simple PHP Application</h1>
 <?php
-    $remoteIpAddress = $_SERVER["SERVER_ADDR"];
+    $remoteIpAddress = $_SERVER["REMOTE_ADDR"];
     echo "<p>".date('l jS \of F Y h:i:s A')."</p>";
-    echo "<p>Your ip address is: ".$remoteIpAddress."</p>";
+    echo "<p>Remote ip address is: ".$remoteIpAddress."</p>";
 ?>
 <img src="/images/poni.jpg" alt="">
 <pre>
