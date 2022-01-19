@@ -25,7 +25,7 @@
     }
 </style>
 <body>
-    <h1>Simple PHP Application</h1>
+    <h1>Simple PHP Application v2.0</h1>
 <?php
     $remoteIpAddress = $_SERVER["REMOTE_ADDR"];
     echo "<p>".date('l jS \of F Y h:i:s A')."</p>";
