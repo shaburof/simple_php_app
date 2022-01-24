@@ -25,7 +25,8 @@
     }
 </style>
 <body>
-    <h1>Simple PHP Application v8.0</h1>
+    <h1>Simple PHP Application v9.0</h1>
+    <p>Jenkins pipeline to AWS Beanstalk</p>
 <?php
     $remoteIpAddress = $_SERVER["REMOTE_ADDR"];
     echo "<p>".date('l jS \of F Y h:i:s A')."</p>";
