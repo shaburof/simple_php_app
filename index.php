@@ -1,5 +1,5 @@
 <?php
-    $bgColor = "green";
+    $bgColor = "blue";
 ?>
 <!DOCTYPE html>
 <html lang="en">
